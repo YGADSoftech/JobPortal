@@ -1,0 +1,76 @@
+/*
+	Side Navigation Menu V2, RWD
+	===================
+	License:
+	https://goo.gl/EaUPrt
+	===================
+	Author: @PableraShow
+
+ */
+
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,700);
+
+.tableContainer th h1 {
+    font-weight: bold;
+    font-size: 1em;
+    text-align: left;
+    color: #185875;
+}
+
+.tableContainer td {
+    font-weight: normal;
+    font-size: 1em;
+    -webkit-box-shadow: 0 2px 2px -2px #0E1119;
+    -moz-box-shadow: 0 2px 2px -2px #0E1119;
+    box-shadow: 0 2px 2px -2px #0E1119;
+}
+
+.tableContainer {
+    text-align: left;
+    overflow: hidden;
+    width: 80%;
+    margin: 0 auto;
+    display: table;
+    padding: 0 0 8em 0;
+}
+
+.tableContainer td, .tableContainer th {
+    padding-bottom: 6%;
+    padding-top: 6%;
+    padding-left:2%;
+}
+
+/* Background-color of the odd rows */
+.tableContainer tr:nth-child(odd) {
+    background-color: white;
+}
+
+/* Background-color of the even rows */
+.tableContainer tr:nth-child(even) {
+    background-color: white;
+}
+
+.tableContainer th {
+    background-color: #1F2739;
+}
+
+.tableContainer td:first-child { color: #FB667A; }
+
+.tableContainer tr:hover {
+    background-color: #FAFAFA;
+    -webkit-box-shadow: 0 6px 6px -6px #0E1119;
+    -moz-box-shadow: 0 6px 6px -6px #0E1119;
+    box-shadow: 0 6px 6px -6px #0E1119;
+}
+
+
+
+@media (max-width: 800px) {
+    .tableContainer td:nth-child(4),
+    .tableContainer th:nth-child(4) { display: none; }
+}
+.tableContainer td>a
+{
+    color:#FB667A;
+}

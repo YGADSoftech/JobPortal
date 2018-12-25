@@ -1,0 +1,2 @@
+@extends('Applicant.ApplicantMasterLayout.master')
+
